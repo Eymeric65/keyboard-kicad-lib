@@ -1,0 +1,285 @@
+(footprint "K_Diode"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode reversible with THT and SMD alternative, countain User.2 back cut")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0 -7.874 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c03327f2-012e-4fbf-80a8-a7d4b49f6df2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "K_Diode"
+		(at 0 2.032 0)
+		(layer "F.Fab")
+		(uuid "729da0de-a38f-4970-a9aa-b4dc70f92f16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acaa596e-914d-4cd8-ab3a-52e2a0d3f270")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0037b9f5-583a-41f5-9b90-1b725631a7a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "482871a4-3f1f-46ca-bcff-19c31bbdd9f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.124 -1.05)
+		(end 4.974 -1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "50fee3f2-eeae-4847-acb8-3eaf11045262")
+	)
+	(fp_line
+		(start 4.974 -1.05)
+		(end 4.974 1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "095380c1-549b-4570-b3a9-73b2c23f187a")
+	)
+	(fp_line
+		(start 4.974 1.05)
+		(end 0.124 1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80a54b8b-2625-4a75-9812-69bd73348457")
+	)
+	(fp_rect
+		(start -4.736 -1.234)
+		(end 4.984 1.266)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8ccce23e-4314-4e8c-ace6-adc57d7b806e")
+	)
+	(fp_line
+		(start -0.126 -0.4)
+		(end 0.474 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd15acba-05d7-4b4c-9747-957d7a2b0535")
+	)
+	(fp_line
+		(start -0.126 0)
+		(end -0.626 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8458105-9cd1-4a1f-8902-cb11dfcb16a0")
+	)
+	(fp_line
+		(start -0.126 0.4)
+		(end -0.126 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1205d007-1e46-4994-b432-2cf568250428")
+	)
+	(fp_line
+		(start 0.474 0)
+		(end -0.126 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b76ff98-5a2e-4f54-a491-19efdbbe9f85")
+	)
+	(fp_line
+		(start 0.474 0)
+		(end 0.474 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00ab4da2-1974-4ed0-b3f6-7b840d1e3f11")
+	)
+	(fp_line
+		(start 0.474 0)
+		(end 0.474 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58b0dfd8-fe17-4c88-b950-4270b005d623")
+	)
+	(fp_line
+		(start 0.874 0)
+		(end 0.474 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb34950f-5f9e-43c6-afd3-562527db97e6")
+	)
+	(fp_rect
+		(start -1.276 -0.9)
+		(end 1.524 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c363e4c8-01e3-4361-962d-ce2e78db0926")
+	)
+	(fp_rect
+		(start -4.736 -1.234)
+		(end 4.984 1.266)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "e98f63eb-f27d-484c-8152-7b41f574993b")
+	)
+	(fp_text user "REF**"
+		(at 0 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b12e5f30-2e5d-4622-8ad7-6d3cbabde15c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.774 0 180)
+		(size 0.9 1.2)
+		(layers "*.Paste" "*.Mask" "F.Cu")
+		(roundrect_rratio 0.25)
+		(uuid "0f0de704-198b-476c-99e4-91a42eb5d602")
+	)
+	(pad "1" smd roundrect
+		(at 2.918 0)
+		(size 2.54 0.25)
+		(layers "F.Cu")
+		(roundrect_rratio 0.5)
+		(uuid "735ee0bd-08dc-4518-aacb-5b9adad4f045")
+	)
+	(pad "1" smd roundrect
+		(at 2.918 0)
+		(size 2.54 0.25)
+		(layers "B.Cu")
+		(roundrect_rratio 0.5)
+		(uuid "ddd3c3b0-49f2-4772-b3ac-850476e265c6")
+	)
+	(pad "1" thru_hole rect
+		(at 3.934 0 270)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa64d391-9951-49a9-a36a-9f30d5855ffd")
+	)
+	(pad "2" thru_hole oval
+		(at -3.686 0 180)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9345cf70-260a-4f46-a95d-9895d93fd411")
+	)
+	(pad "2" smd roundrect
+		(at -2.67 0)
+		(size 2.54 0.25)
+		(layers "F.Cu")
+		(roundrect_rratio 0.5)
+		(uuid "268df700-37d2-4dae-8c3a-806a906cc4b6")
+	)
+	(pad "2" smd roundrect
+		(at -2.67 0)
+		(size 2.54 0.25)
+		(layers "B.Cu")
+		(roundrect_rratio 0.5)
+		(uuid "9bf71cc8-450d-4eb0-adc5-08d0bfa959c7")
+	)
+	(pad "2" smd roundrect
+		(at -1.526 0 180)
+		(size 0.9 1.2)
+		(layers "*.Paste" "*.Mask" "F.Cu")
+		(roundrect_rratio 0.25)
+		(uuid "ab9fc9a9-a703-48d2-a0e6-7f81ff40d748")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(offset
+			(xyz 2.54 5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

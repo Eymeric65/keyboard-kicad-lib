@@ -1,0 +1,155 @@
+(footprint "Pin_D1.0mm_L10.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm, contianing User.2 for bottom cover space")
+	(tags "solder Pin_ press fit")
+	(property "Reference" "REF**"
+		(at 0 3.9624 0)
+		(layer "F.SilkS")
+		(uuid "73738b27-fadb-457c-9d2f-dd2d7e19fee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pin_D1.0mm_L10.0mm"
+		(at 0 -2.6924 0)
+		(layer "F.Fab")
+		(uuid "d8269bcc-416c-468c-935f-249b272fa2f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd06673-de6d-4dea-9ea1-736970805954")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45493ec-c339-4e1e-8d2e-a788f82fdc2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ff90f0c-bb21-4f38-a212-26f04bfda230")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b89d9d8d-4cc4-45ae-b210-c7b76bf45144")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ae0f9c10-db5d-4150-991d-122db5d4e5a2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fbe4932f-0bf9-4b6c-ad36-a3e8daa599a6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a0297dc6-ccd8-417f-981d-2c1c307a17ed")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "f51d5189-995f-4f8e-9e5b-0b883339d9e4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.3368 0)
+		(layer "F.Fab")
+		(uuid "4a9de7de-39c6-48a3-a57e-888aedadd830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c98ed59-f764-4ba2-9cf6-334888b66ee7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

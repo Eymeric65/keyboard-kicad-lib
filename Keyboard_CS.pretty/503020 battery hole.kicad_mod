@@ -1,0 +1,250 @@
+(footprint "503020 battery hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Battery hole for keyboard, contain Edge.cuts and User.2 cutout (for bottom coverplate)")
+	(property "Reference" "REF**"
+		(at 11 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1777ff57-b694-43ad-a6b2-08317850f4d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "503020 battery hole"
+		(at 11 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f1cf93b-e710-4fe6-88ee-df1e3c0a2e50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6791456f-976e-4a46-8624-690f0efe00aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77114775-b254-44e7-ba3a-a50c0957e8e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adaa6562-d423-4025-8fa7-bd57d0bac58a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 32.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "df2aa6fa-efec-48bb-abb6-08226d664c8e")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end 21 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66063b1d-7a65-4d9a-8cc2-cb3626247e20")
+	)
+	(fp_line
+		(start 21 33)
+		(end 0.5 33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ab0b9d3-88d5-4fb2-85c5-bf80783c7697")
+	)
+	(fp_line
+		(start 21.5 0.5)
+		(end 21.5 32.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "211c3e96-8dbe-4187-b005-948679fb9aeb")
+	)
+	(fp_arc
+		(start 0 0.5)
+		(mid 0.146447 0.146447)
+		(end 0.5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f994b1c-85a3-4041-b9d0-9c41040e3f6c")
+	)
+	(fp_arc
+		(start 0.5 33)
+		(mid 0.146447 32.853553)
+		(end 0 32.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33148228-583e-4c49-903b-98cb2b9d5234")
+	)
+	(fp_arc
+		(start 21 0)
+		(mid 21.353553 0.146447)
+		(end 21.5 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5a54df9-008e-4b7c-bde8-ef0ea845a3d3")
+	)
+	(fp_arc
+		(start 21.5 32.5)
+		(mid 21.353553 32.853553)
+		(end 21 33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d45c9ce7-ef04-4375-adce-63ea1a3441f5")
+	)
+	(fp_line
+		(start 0 32.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "70bdeda5-fe51-451f-8457-6ac60d479784")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end 21 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "fc73e72f-6e01-4492-a097-a1724db13a90")
+	)
+	(fp_line
+		(start 21 33)
+		(end 0.5 33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "a619cebe-e233-48c4-95e5-aaaab356152d")
+	)
+	(fp_line
+		(start 21.5 0.5)
+		(end 21.5 32.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "686e2e83-461d-4cd8-bc1c-c349ccbf6f62")
+	)
+	(fp_arc
+		(start 0 0.5)
+		(mid 0.146447 0.146447)
+		(end 0.5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f5005db1-32ef-4f85-b444-3d466e2c06e8")
+	)
+	(fp_arc
+		(start 0.5 33)
+		(mid 0.146447 32.853553)
+		(end 0 32.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "1835ae2f-f389-4517-a390-2345009b7cdf")
+	)
+	(fp_arc
+		(start 21 0)
+		(mid 21.353553 0.146447)
+		(end 21.5 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "888f7586-5629-4796-ab77-c2ff251b9969")
+	)
+	(fp_arc
+		(start 21.5 32.5)
+		(mid 21.353553 32.853553)
+		(end 21 33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "897b0f9a-23c0-48a0-9c57-6eafffc94a5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "720d608a-50f1-49eb-8a8f-fe51f20ab015")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
