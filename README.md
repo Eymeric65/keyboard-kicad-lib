@@ -63,7 +63,9 @@ For more information about Keyboard speedrunning please check here
 don't hesitate to reach me in order that I cite you back here ! *(you can also ask for a merge request)*
 
 - [Tokei keyboard](https://github.com/Eymeric65/tokei-keyboard) : The tokei keyboard is a split 40% keyboard with a 3D printed case, it is made using this library.
+  ![Tokei cover](images/cover_tokei.jpg)
 - [Hillside speedrun](https://github.com/Eymeric65/hillside-speedrun) : A remake of the hillside keyboard.
+  ![Hillside cover](images/cover_hillside.jpg)
 
 
 ## Contribution
